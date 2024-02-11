@@ -1,0 +1,49 @@
+
+body{
+  width: 100%;
+  margin: 0 auto;
+
+  background: rgb(30, 82, 71);
+}
+
+nav{
+  position: fixed;
+  top:0;
+}
+
+nav ul{
+display: flex;
+margin: 0;
+padding: 0;
+list-style-type: none;
+
+}
+
+
+nav ul li :last-child{
+  margin-right: 10px;
+}
+
+nav ul li a{
+text-decoration: none;
+  margin-right: 0;
+  padding: 10px;;
+}
+
+nav ul li a:hover{
+  text-decoration: underline solid #eaecec;
+  
+}
+
+{/*mobile icons*/}
+.menu-icon{
+  
+  cursor: pointer;
+}
+.bar{
+  background-color: rgb(255, 255, 255);
+  width: 25px;
+  height: 3px;
+  margin: 10px;
+  
+}
