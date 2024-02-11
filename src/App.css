@@ -2,10 +2,14 @@
 body{
   width: 100%;
   margin: 0 auto;
-
   background: rgb(30, 82, 71);
 }
 
+.navbar{
+  display: flex;
+  justify-content: flex-end;
+
+}
 nav{
   position: fixed;
   top:0;
