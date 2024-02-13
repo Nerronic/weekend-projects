@@ -15,7 +15,6 @@ nav{
   top:0;
   box-shadow: 10px black;
   font-size: xx-large;
-  
   padding: 10px;
 }
 
@@ -34,14 +33,11 @@ height: 300px;
 border-radius: 50%;
 display: flex;
 box-shadow:5px 5px 15px black;
+
 }
 
 h1{
-  text-align: end;
-}
-home-para{
-text-align: center;
-
+  text-align: center;
 }
 
 .logo-container{
@@ -51,16 +47,18 @@ text-align: center;
 
 .home-para{
   text-wrap: wrap;
+  
 }
 
 nav ul li :last-child{
-  margin-right: 10px;
+  margin-right: 125px;
 }
 
 nav ul li a{
+  top: 10px;
 text-decoration: none;
-  margin-right: 0;
-  padding: 10px;;
+  margin-right: 10px;
+  padding: 10px;
 }
 
 nav ul li a:hover{
@@ -87,9 +85,10 @@ nav ul li a:hover{
 
 .nav-links.visible{
   display: flex;
-  background-color: #333333;
+  background-color: rgb(30, 82, 71);
   z-index: 1000;
-  padding: 20px 0;
+  padding: 5px 5px;
+
 
 }
 

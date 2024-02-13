@@ -1,12 +1,12 @@
-import About from "../src/components/About.jsx";
-import Nav from "../src/components/Nav.jsx";
-import Home from './components/Home.jsx'
 import './App.css';
-
+import Home from './components/HOME/Home.jsx';
+import Nav from "./components/NAV/Nav.jsx";
+import Header from './components/HEADER/Header.jsx';
 function App() {
   return (
     <>
    <Nav/>
+   <Header/>
    <Home/>
     </>
   )

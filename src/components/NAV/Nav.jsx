@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { Link, Route, Routes } from 'react-router-dom';
-import About from "./About";
-import Archive from "./Archive";
-import Home from "./Home";
-import LatestPosts from "./LatestPosts";
+import About from "../ABOUT/About";
+import Archive from "../ARCHIVE/Archive";
+import Home from "../HOME/Home";
+import LatestPosts from "../LATESTPOSTS/LatestPosts";
 
 const Nav = () => {
   const [menuOpen, setMenuOpen] = useState(false);
