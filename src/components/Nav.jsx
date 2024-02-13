@@ -21,8 +21,8 @@ const Nav = () => {
           <div className="bar"></div>
         </div>
         <a href="#" className="nav-logo" color="purple"></a>
-        <div>
-          <ul>
+        <div >
+          <ul className={`nav-links ${menuOpen ? "visible" : ""}`}>
             <li>
               <Link to="./Home.jsx">Home</Link>
             </li>

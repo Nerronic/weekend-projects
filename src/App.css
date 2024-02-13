@@ -13,6 +13,10 @@ body{
 nav{
   position: fixed;
   top:0;
+  box-shadow: 10px black;
+  font-size: xx-large;
+  
+  padding: 10px;
 }
 
 nav ul{
@@ -22,7 +26,7 @@ padding: 0;
 list-style-type: none;
 
 }
-
+/** Home Section*/
 
 .profile-pic{
 width: 300px;
@@ -30,6 +34,14 @@ height: 300px;
 border-radius: 50%;
 display: flex;
 box-shadow:5px 5px 15px black;
+}
+
+h1{
+  text-align: end;
+}
+home-para{
+text-align: center;
+
 }
 
 .logo-container{
@@ -68,3 +80,21 @@ nav ul li a:hover{
   margin: 10px;
   
 }
+
+.nav-links{
+  display: none;
+}
+
+.nav-links.visible{
+  display: flex;
+  background-color: #333333;
+  z-index: 1000;
+  padding: 20px 0;
+
+}
+
+.navbar{
+  background-color:transparent;
+  padding: 10px 8%;
+}
+
