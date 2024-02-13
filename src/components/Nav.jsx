@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link, Routes, Route } from 'react-router-dom';
+import { Link, Route, Routes } from 'react-router-dom';
 import About from "./About";
 import Archive from "./Archive";
 import Home from "./Home";
@@ -24,22 +24,22 @@ const Nav = () => {
         <div>
           <ul>
             <li>
-              <Link to="/">Home</Link>
+              <Link to="./Home.jsx">Home</Link>
             </li>
             <li>
-              <Link to="/about">About</Link>
+              <Link to="./About.jsx">About</Link>
             </li>
             <li>
-              <Link to="/latestPosts">Latest Posts</Link>
+              <Link to="./LatestPosts.jsx">Latest Posts</Link>
             </li>
             <li>
-              <Link to="/archive">Archive</Link>
+              <Link to="./Archive.jsx">Archive</Link>
             </li>
           </ul>
         </div>
       </nav>
       <Routes>
-        <Route exact path="/" component={Home} />
+        <Route exact path="/home" component={Home} />
         <Route path="/about" component={About} />
         <Route path="/latestPosts" component={LatestPosts} />
         <Route path="/archive" component={Archive} />
