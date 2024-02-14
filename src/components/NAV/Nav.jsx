@@ -1,9 +1,6 @@
 import React, { useState } from "react";
-import { Link, Route, Routes } from 'react-router-dom';
-import About from "../ABOUT/About";
-import Archive from "../ARCHIVE/Archive";
-import Home from "../HOME/Home";
-import LatestPosts from "../LATESTPOSTS/LatestPosts";
+import { Link, } from 'react-router-dom';
+
 
 const Nav = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -24,26 +21,21 @@ const Nav = () => {
         <div >
           <ul className={`nav-links ${menuOpen ? "visible" : ""}`}>
             <li>
-              <Link to="./Home.jsx">Home</Link>
+              <Link to="/home">Home</Link>
             </li>
             <li>
-              <Link to="./About.jsx">About</Link>
+              <Link to="/about">About</Link>
             </li>
             <li>
-              <Link to="./LatestPosts.jsx">Latest Posts</Link>
+              <Link to="/latestPosts">Latest Posts</Link>
             </li>
             <li>
-              <Link to="./Archive.jsx">Archive</Link>
+              <Link to="/archive">Archive</Link>
             </li>
           </ul>
         </div>
       </nav>
-      <Routes>
-        <Route exact path="/home" component={Home} />
-        <Route path="/about" component={About} />
-        <Route path="/latestPosts" component={LatestPosts} />
-        <Route path="/archive" component={Archive} />
-      </Routes>
+     
     </header>
   );
 };
