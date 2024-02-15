@@ -34,6 +34,7 @@ border-radius: 50%;
 display: flex;
 box-shadow:5px 5px 15px black;
 
+
 }
 
 h1{
@@ -50,6 +51,7 @@ h1{
   
 }
 
+/* nav elements*/
 nav ul li :last-child{
   margin-right: 125px;
 }
@@ -66,7 +68,16 @@ nav ul li a:hover{
   
 }
 
-{/*mobile icons*/}
+
+/** hero section*/
+.hero-img{
+  position: absolute;
+  top:100px;
+  width: 2000px;
+  height: 100px;
+}
+
+/*mobile icons*/
 .menu-icon{
   
   cursor: pointer;

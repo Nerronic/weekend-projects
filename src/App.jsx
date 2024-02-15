@@ -14,8 +14,8 @@ function App() {
    
       <>
       <Nav />
-      <Hero />
       <Home/>
+      <Hero />
       <Routes>
         <Route exact path="/" element={<Home/>} />
         <Route path="/about" element={<About/>} />
