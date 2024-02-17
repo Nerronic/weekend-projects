@@ -10,7 +10,7 @@ function About() {
 </div>
       </div>
       <p className='about-para'>
- As I am developing this site solely forfor 100 days of coding, 
+ As I am developing this site solely for 100 days of coding, 
  <br/>watch as I slowly develop this project every weekend.
       </p>
       
