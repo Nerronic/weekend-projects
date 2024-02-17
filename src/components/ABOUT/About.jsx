@@ -2,9 +2,14 @@ import React from 'react'
 
 function About() {
   return (
-    <div><h3>This is  place holder for all my work, 
-      this will be updated as I develop this blog site</h3>
-      <p>
+    <div>
+      <div className="logo-container">
+        <img src="/public/profile-pic.jpg" className="profile-pic" alt="" />
+      <div className="bio"> 
+      <p>International traveler and Web developer on a journey through a plethora of coding languages,<br/> chasing the dream of becoming a full-stack developer.<br/> Passionate about crafting seamless digital experiences and embracing new technologies.<br/> Always learning, always hungry.</p>
+</div>
+      </div>
+      <p className='about-para'>
  As I am developing this site solely forfor 100 days of coding, 
  <br/>watch as I slowly develop this project every weekend.
       </p>

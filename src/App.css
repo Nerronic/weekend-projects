@@ -27,24 +27,11 @@ list-style-type: none;
 }
 /** Home Section*/
 
-.profile-pic{
-width: 300px;
-height: 300px;
-border-radius: 50%;
-display: flex;
-box-shadow:5px 5px 15px black;
-
-
-}
 
 h1{
   text-align: center;
 }
 
-.logo-container{
-  justify-content: flex-end;
-  display: flex;
-}
 
 .home-para{
   text-wrap: wrap;
@@ -58,7 +45,7 @@ nav ul li :last-child{
 
 nav ul li a{
   top: 10px;
-text-decoration: none;
+  text-decoration: none;
   margin-right: 10px;
   padding: 10px;
 }
@@ -68,6 +55,9 @@ nav ul li a:hover{
   
 }
 
+.bio{
+  margin-left:10px;
+}
 
 /** hero section*/
 .hero-img{
@@ -99,8 +89,8 @@ nav ul li a:hover{
   background-color: rgb(30, 82, 71);
   z-index: 1000;
   padding: 5px 5px;
-
-
+  
+  
 }
 
 .navbar{
@@ -108,3 +98,23 @@ nav ul li a:hover{
   padding: 10px 8%;
 }
 
+/**about page **/
+.logo-container{
+  align-items:center;
+  display: flex;
+  justify-content: flex-end;
+}
+.profile-pic{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: flex;
+  box-shadow:5px 5px 15px black;
+  
+}
+
+.about-para{
+display: flex;
+justify-content: center;
+font-family: ;
+}

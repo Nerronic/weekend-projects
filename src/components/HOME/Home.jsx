@@ -3,9 +3,8 @@ import React from "react";
 function Home() {
   return (
     <div>
-      <div className="logo-container">
-        <img src="/public/profile-pic.jpg" className="profile-pic" alt="" />
-      </div>
+     
+      
       <h1>Welcome to my page!</h1>
       <p className="home-para">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quis
